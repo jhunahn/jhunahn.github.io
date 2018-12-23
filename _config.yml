@@ -92,8 +92,9 @@ rss:
 # icon between year and author @Footer
 authoricon: heart
 
-# Footer `powered-by` and `theme-info` copyright
-copyright: true
+footer:
+    copyright: true # Footer `powered-by` and `theme-info` copyright
+    custom_text:
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -228,6 +229,7 @@ social_icons:
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Twitter: twitter
+  instagram: instagram
   Weibo: weibo
 
 
