@@ -4,10 +4,10 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
-subtitle:
+title: Jihun's memories
+subtitle: In my storage
 description:
-author: John Doe
+author: Jihun Ahn
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
@@ -76,10 +76,10 @@ plugins:
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/` directory.
-favicon: /assets/favicon.ico
+favicon: /assets/images/favicon/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "Jihun Ahn, jhun.ahn, jihunahn, jhunahn"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -93,8 +93,8 @@ rss:
 authoricon: heart
 
 footer:
-    copyright: true # Footer `powered-by` and `theme-info` copyright
-    custom_text:
+    copyright: false # Footer `powered-by` and `theme-info` copyright
+    custom_text: Everything is my main inspiration
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -214,8 +214,19 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
+social:
+  GitHub: https://github.com/jhunahn
+  E-Mail: mailto:jhun.ahnn@gmail.com
+  #Google: https://plus.google.com/yourname
+  Twitter: https://twitter.com/JihunAhn1
+  #FB Page: https://www.facebook.com/yourname
+  #VK Group: https://vk.com/yourname
+  #StackOverflow: https://stackoverflow.com/yourname
+  #YouTube: https://youtube.com/yourname
+  Instagram: https://instagram.com/__pierrot
+  #Skype: skype:yourname?call|chat
+
+LinkLabel: Link
 
 
 # Social Links Icons
@@ -231,11 +242,11 @@ social_icons:
   Twitter: twitter
   instagram: instagram
   Weibo: weibo
-
+  E-Mail: envelope
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: /assets/images/avatar.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -382,8 +393,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: jhunahn
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
