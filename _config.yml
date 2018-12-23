@@ -225,6 +225,7 @@ social:
   #YouTube: https://youtube.com/yourname
   Instagram: https://instagram.com/__pierrot
   #Skype: skype:yourname?call|chat
+  Linkedin: https://www.linkedin.com/in/jihunahn
 
 LinkLabel: Link
 
@@ -245,6 +246,7 @@ social_icons:
   Instagram: instagram
   Weibo: weibo
   E-Mail: envelope
+  Linkedin: linkedin
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
