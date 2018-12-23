@@ -39,6 +39,12 @@
   @include transform(rotate(30deg));
 }
 
+.post-title-image {
+  max-height: 120px;
+  display: block;
+  margin: 0 auto;
+}
+
 @import "post-expand";
 @import "post-collapse";
 @import "post-type";
