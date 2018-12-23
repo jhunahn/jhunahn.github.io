@@ -236,11 +236,13 @@ LinkLabel: Link
 #   When an globe mask icon presenting up means that the item has no mapping icon.
 social_icons:
   enable: true
+  label: false
+  transition: false
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   Twitter: twitter
-  instagram: instagram
+  Instagram: instagram
   Weibo: weibo
   E-Mail: envelope
 

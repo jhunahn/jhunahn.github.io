@@ -102,7 +102,9 @@
                   {% if site.social_icons.enable %}
                     <i class="fa fa-fw fa-{{ site.social_icons[name] | default: 'globe' | downcase }}"></i>
                   {% endif %}
-                  {{ name }}
+                  {% if site.social_icons.label %}
+                    {{ name }}
+                  {% endif %}
                 </a>
               </span>
             {% endfor %}
