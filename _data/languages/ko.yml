@@ -6,6 +6,7 @@ title:
   categories: 카테고리
   tags: 태그
   about: About
+  project: 프로젝트
 
 author: 작성자
 
@@ -15,6 +16,7 @@ menu:
   categories: 카테고리
   tags: 태그
   about: About
+  project: 프로젝트
   search: 검색
 
 sidebar:

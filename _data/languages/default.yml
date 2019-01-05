@@ -7,6 +7,7 @@ title:
   categories: Categories
   tags: Tags
   about: About
+  project: Projects
 
 author: Author
 
@@ -16,6 +17,7 @@ menu:
   categories: Categories
   tags: Tags
   about: About
+  project: Projects
   search: Search
   schedule: Schedule
   sitemap: Sitemap

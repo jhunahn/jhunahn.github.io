@@ -121,6 +121,7 @@ index_with_subtitle: false
 menu:
   home: /
   about: /about/
+  project: /projects/
   categories: /categories/
   archives: /archives/
   tags: /tags/
@@ -138,6 +139,7 @@ menu_icons:
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   home: home
   about: user
+  project: github-square
   categories: th
   schedule: calendar
   tags: tags

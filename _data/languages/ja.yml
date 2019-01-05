@@ -6,6 +6,7 @@ title:
   categories: カテゴリ
   tags: タグ
   about: About
+  project: プロジェクト
 
 author: Author
 
@@ -15,6 +16,7 @@ menu:
   categories: カテゴリ
   tags: タグ
   about: About
+  project: プロジェクト
   search: 検索
 
 sidebar:

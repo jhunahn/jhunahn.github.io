@@ -6,6 +6,7 @@ title:
   categories: Kategori
   tags: Tags
   about: Tentang
+  project: Proyek
 
 author: Penulis
 
@@ -15,6 +16,7 @@ menu:
   categories: Kategori
   tags: Tags
   about: Tentang
+  project: Proyek
   search: Pencarian
 
 sidebar:

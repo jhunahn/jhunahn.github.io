@@ -6,6 +6,7 @@ title:
   categories: Kategorien
   tags: Tags
   about: Über
+  project: Projekte
 
 author: Author
 
@@ -15,6 +16,7 @@ menu:
   categories: Kategorien
   tags: Tags
   about: Über
+  project: Projekte
   feed: RSS
   search: Suche
 

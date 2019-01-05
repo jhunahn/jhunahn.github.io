@@ -37,13 +37,3 @@ Apart from all this, I love travelling, meeting new people and reading. The reco
 #### Knowledge
 - eXtreme Programming
 - TDD e Continuous Integration
-
-## Interests
-- [TenserFlow](https://github.com/tensorflow/tensorflow): An Open Source Machine Learning Framework
-- [aws](http://aws.amazon.com): Amazon Web Services
-
-## Projects
-- [ECR S/W Framework](https://github.com/jhunahn/ecr)
-- [Magic Mirror](https://github.com/jhunahn/MagicMirror)
-- [for my mac machine](https://github.com/jhunahn/for-my-mac)
-- [My docker hub](https://hub.docker.com/u/jhunahn)

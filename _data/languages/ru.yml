@@ -7,6 +7,7 @@ title:
   categories: Категории
   tags: Тэги
   about: О сайте
+  project: проект
 
 author: Автор
 
@@ -16,6 +17,7 @@ menu:
   categories: Категории
   tags: Тэги
   about: О сайте
+  project: проект
   search: Поиск
   schedule: Календарь
   sitemap: Карта сайта
