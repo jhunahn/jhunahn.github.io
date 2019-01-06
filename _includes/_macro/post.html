@@ -371,6 +371,12 @@
       {% endif %}
 
       {% unless is_index %}
+      {% if site.authors._show and page.author %}
+        {% include _custom/author.html %}
+      {% endif %}
+      {% endunless %}
+
+      {% unless is_index %}
       {% if site.vkontakte_api.enable and site.vkontakte_api.like %}
         {% assign vkontakte_api = true %}
       {% endif %}

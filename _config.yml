@@ -148,7 +148,16 @@ menu_icons:
   commonweal: heartbeat
 
 
-
+authors:
+    # show author block at the end of a post ?
+    _show: true
+    jihun:
+        name: Jihun Ahn
+        bio: Developer who love travel and workout
+        external-image: false
+        picture: assets/images/profile.jpg
+        twitter: JihunAhn1
+        facebook: jhun.ahnn@gmail.com
 
 # ---------------------------------------------------------------
 # Scheme Settings
