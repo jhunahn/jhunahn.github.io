@@ -7,8 +7,7 @@
 title: Jihun's memories
 subtitle: In my storage
 description:
-author: Jihun Ahn
-picture: /assets/images/profile.jpg
+owner: jihun
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'

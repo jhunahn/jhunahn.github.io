@@ -3,7 +3,7 @@ title: About
 layout: layout
 ---
 
-![Profile Image]({{ site.url }}/{{ site.picture }})
+![Profile Image]({{ site.url }}/{{ site.authors[site.owner].picture }})
 
 ## WHO AM I ?
 I am a software developer working in the System LSI division of Samsung Electronics Co., Ltd. I did my undergraduate studies in Electronics Engineering at Dongguk University, Korea.
