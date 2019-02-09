@@ -10,6 +10,7 @@ photos:
 - http://ww3.sinaimg.cn/mw690/81b78497jw1emfgvcdn25j21hc0u0qpa.jpg
 tags:
 - consectetur
+hidden: true
 description: "Gallery Post Test."
 ---
 

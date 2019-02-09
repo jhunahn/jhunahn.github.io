@@ -10,6 +10,7 @@ tag:
 - markup
 category: Language
 author: jihun
+hidden: true
 ---
 
 ## Summary:
