@@ -1,0 +1,59 @@
+#! /bin/bash
+
+PWD=$(cd $(dirname $0) && pwd)
+
+function usage() {
+  cat << EOF
+Usage: `basename $0` [OPTIONS]
+Options:
+  --title=<<title>>
+
+  -c=<<category>>
+  --author=<<author>>
+EOF
+}
+
+test $# -eq 0 && usage 1 1>&2
+
+while test $# -gt 0; do
+  case "$1" in
+    -*=*) optarg=$(echo "$1" | sed 's/[-_a-zA-Z0-9]*=//') ;;
+    *)    optarg= ;;
+  esac
+
+  case $1 in
+	  --title=*) name=$optarg ;;
+	  --author=*) author=$optarg ;;
+	  -c=*) category=$optarg ;;
+	  *) usage; exit 1 ;; 
+  esac
+  shift
+done
+
+if test -z $name; then
+  usage
+  exit 1
+fi
+
+title="$(date -u +%Y-%m-%d)-$(echo $name | sed 's/ /-/g').md"
+
+tee "$PWD/../_posts/$title" << __EOF__
+---
+title: "$name"
+layout: post
+comments: true
+date: $(date -u '+%Y-%m-%d %H:%M')
+image:
+headerImage:
+tag:
+star: false
+category: $category
+author: $author
+---
+
+<!-- more -->
+
+# TODO: Add contents..
+
+__EOF__
+
