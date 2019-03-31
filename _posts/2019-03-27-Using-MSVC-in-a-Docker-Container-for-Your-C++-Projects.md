@@ -6,8 +6,9 @@ date: 2019-03-27 17:23
 image:
 headerImage:
 tag:
+ - docker
 star: false
-category: IT trend
+category: docker
 author: jihun
 ---
 
