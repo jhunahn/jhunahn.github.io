@@ -7,7 +7,6 @@ image: /assets/images/samples/markdown.jpg
 headerImage: true
 tag:
 - markdown
-- markup
 category: Language
 author: jihun
 hidden: true

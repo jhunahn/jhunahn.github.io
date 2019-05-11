@@ -7,7 +7,6 @@ image: /assets/images/samples/markdown.jpg
 headerImage: true
 tag:
 - markdown
-- markup
 star: true
 category: Language
 hidden: true
